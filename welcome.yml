@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: welcome
   boot:
     admin:
       client:
@@ -12,7 +10,10 @@ management:
     web:
       exposure:
         include: " *, refresh"
-        
+  profiles:
+    active: welcome.dev
+
+    
  # if we are using different port or diffrent system instead of defaul port/same system  
  # Then we could configured these properies only
  
