@@ -1,4 +1,6 @@
 spring:
+ profiles:
+    active: dev
   boot:
     admin:
       client:
@@ -10,8 +12,7 @@ management:
     web:
       exposure:
         include: " *, refresh"
-  profiles:
-    active: dev
+  
 
     
  # if we are using different port or diffrent system instead of defaul port/same system  
