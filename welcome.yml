@@ -1,1 +1,27 @@
+spring:
+  application:
+    name: welcome
+  boot:
+    admin:
+      client:
+        url: http://localhost:2126/
+server:
+  port: 2120
+management:
+  endpoints:
+    web:
+      exposure:
+        include: " *, refresh"
+eureka:
+  client:
+    service-url:
+       default-zone: http://localhost:8761/eureka
+         
+
+
+
+
+
+
+
 msg: WelCome to Our Coding (Balaji)
