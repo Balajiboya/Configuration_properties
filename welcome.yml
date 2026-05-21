@@ -1,18 +1,4 @@
-spring:
-  admin:
-    client:
-      url:  http://localhost:2126
-management:
-  endpoints:
-    web:
-      exposure:
-        include: " *, refresh"
-server:
-  port: 2120
 
-  
-
-    
  # if we are using different port or diffrent system instead of defaul port/same system  
  # Then we could configured these properies only
  
