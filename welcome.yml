@@ -1,4 +1,24 @@
+spring:
+    boot:
+    admin:
+      client:
+        url: http://localhost:2126
 
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8763/eureka
+ 
  # if we are using different port or diffrent system instead of defaul port/same system  
  # Then we could configured these properies only
  
