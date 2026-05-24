@@ -1,1 +1,6 @@
+spring:
+    boot:
+    admin:
+      client:
+        url: http://localhost:2126
 msg: Welcome to Our Dev MicroSevicres (Dev Profile)
